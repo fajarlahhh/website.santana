@@ -39,7 +39,7 @@ class Form extends Component
 
         if (Blog::where('title', $this->title)->count() == 0) {
             if ($this->file) {
-                $file = $this->file->storeAs(path: 'public/blogs', name: $this->title);
+                $file = $this->file->storeAs(path: 'public', name: $this->title);
                 $this->data->file = $file;
             }
 
