@@ -11,6 +11,7 @@
     <meta name="author" content="Lombok Tour">
     <meta name="description" content="Lombok tour">
     <meta name="description" content="Rent Car">
+    <meta name="description" content="Sapta Santana">
     <link rel="icon" href="/assets/images/logo.png" type="image/gif">
 
     <!-- Font Imports -->
