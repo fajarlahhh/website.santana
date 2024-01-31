@@ -29,12 +29,10 @@ class Form extends Component
         if ($this->key) {
             $this->validate([
                 'title' => 'required',
-                'description' => 'required',
             ]);
         } else {
             $this->validate([
                 'title' => 'required',
-                'description' => 'required',
                 'file' => 'required',
             ]);
         }
