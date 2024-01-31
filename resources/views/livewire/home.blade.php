@@ -165,8 +165,8 @@
                                         <div class="grid-inner row align-items-center">
                                             <div class="col-lg-6">
                                                 <div class="entry-image">
-                                                    <a href="#"><img src="{{ Storage::url($row['file']) }}"
-                                                            alt="Paris"></a>
+                                                    <a href="#"><img
+                                                            src="{{ Storage::url($row['file']) }}" /></a>
                                                 </div>
                                             </div>
                                             <div class="col-lg-6 mt-3 mt-lg-0">
