@@ -4,6 +4,7 @@ namespace App\Livewire\Admin\Blog;
 
 use App\Models\Blog;
 use Livewire\Component;
+use Illuminate\Support\Str;
 use Livewire\WithFileUploads;
 
 class Form extends Component
@@ -39,7 +40,7 @@ class Form extends Component
 
         if (Blog::where('title', $this->title)->count() == 0) {
             if ($this->file) {
-                $file = $this->file->storeAs(path: 'public', name: $this->title);
+                $file = $this->file->storeAs(path: 'public', name: Str::random(40) . "." . $this->file->getClientOriginalExtension());
                 $this->data->file = $file;
             }
 

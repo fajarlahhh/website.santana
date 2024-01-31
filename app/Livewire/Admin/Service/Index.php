@@ -37,7 +37,7 @@ class Index extends Component
         Page::where('type', 'service')->delete();
         $data = new Page();
         if ($this->file) {
-            $file = $this->file->storeAs(path: 'public', name: 'service');
+            $file = $this->file->storeAs(path: 'public', name: 'service.' . $this->file->getClientOriginalExtension());
             $data->file = $file;
         }
 
