@@ -8,9 +8,9 @@
     <title>Santana Lombok Tour</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta http-equiv="x-ua-compatible" content="IE=edge">
-    <meta name="author" content="SemiColonWeb">
-    <meta name="description"
-        content="Get Canvas to build powerful websites easily with the Highly Customizable &amp; Best Selling Bootstrap Template, today.">
+    <meta name="author" content="Lombok Tour">
+    <meta name="description" content="Lombok tour">
+    <meta name="description" content="Rent Car">
 
     <!-- Font Imports -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
