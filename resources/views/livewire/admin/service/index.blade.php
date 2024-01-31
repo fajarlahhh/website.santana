@@ -7,6 +7,42 @@
 
     <section class="content">
         <div class="container-fluid">
+            <form wire:submit.prevent="submit">
+                <div class="card card-default">
+                    <div class="card-header">
+                        Form
+                    </div>
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label class="control-label">Description</label>
+                            <textarea class="form-control" rows="2" wire:model="description"></textarea>
+                            @error('description')
+                                <small><span class="text-danger">{{ $message }}</span></small>
+                            @enderror
+                        </div>
+                        <div class="form-group">
+                            <label for="file">File </label>
+                            <div>
+                                <input type="file" accept="image/*" wire:model="file" id="file">
+                            </div>
+                            @if ($service && $service->file)
+                                <img src="{{ Storage::url($service->file) }}" alt="" class="width-full">
+                            @endif
+                            @error('file')
+                                <small><span class="text-danger">{{ $message }}</span></small>
+                            @enderror
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <input type="submit" value="Save" class="btn text-white btn-success m-r-3" />
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section class="content">
+        <div class="container-fluid">
             <div class="card card-default">
                 <div class="card-header">
                     <div class="form-inline">
@@ -32,7 +68,7 @@
                                         {{ ($data->currentpage() - 1) * $data->perpage() + $loop->index + 1 }}
                                     </td>
                                     <td class="align-middle">{{ $row->title }}</td>
-                                    <td class="align-middle">{{ $row->icon }}</td>
+                                    <td class="align-middle"><i class="{{ $row->icon }}"></i></td>
                                     <td class="with-btn-group align-middle text-right" nowrap>
                                         <div class="btn-group btn-group-sm" role="group">
                                             @if ($key === $row->getKey())

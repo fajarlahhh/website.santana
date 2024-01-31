@@ -13,9 +13,12 @@
     <link rel="stylesheet" href="/assets/admin/css/adminlte.min.css">
     <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/css/bootstrap-select.min.css">
+
+    <!-- Font Icons -->
+    <link rel="stylesheet" href="/assets/css/font-icons.css">
+    <link rel="stylesheet" href="/assets/one-page/css/et-line.css">
     @stack('css')
 
-    @livewireStyles
 </head>
 
 <body class="hold-transition sidebar-mini layout-fixed">
@@ -79,7 +82,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="/admin/about" class="nav-link">
+                            <a href="/admin/contact" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 Contact
                             </a>
@@ -111,7 +114,6 @@
     </div>
     <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
     </form>
-    @livewireScripts
 
     <script src="/assets/admin/plugins/jquery/jquery.min.js"></script>
     <script src="/assets/admin/plugins/jquery-ui/jquery-ui.min.js"></script>
@@ -127,6 +129,8 @@
             document.getElementById('logout-form').submit();
         });
     </script>
+    <script src="https://cdn.ckeditor.com/ckeditor5/41.0.0/classic/ckeditor.js"></script>
+
     @stack('scripts')
 </body>
 

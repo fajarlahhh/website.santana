@@ -4,9 +4,11 @@ namespace App\Livewire\Admin\Service;
 
 use App\Models\Service;
 use Livewire\Component;
+use Livewire\WithFileUploads;
 
 class Form extends Component
 {
+    use WithFileUploads;
     public $data, $key, $title, $icon;
 
     public function mount()

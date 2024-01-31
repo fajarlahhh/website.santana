@@ -29,5 +29,6 @@ Route::prefix('admin')->group(function () {
         Route::get('/edit/{key}', \App\Livewire\Admin\Service\Form::class);
     });
     Route::get('/about', \App\Livewire\Admin\About::class);
+    Route::get('/contact', \App\Livewire\Admin\Contact::class);
 });
 // });
