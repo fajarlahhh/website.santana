@@ -190,7 +190,7 @@
 
                 <div id="section-contact" class="page-section pt-0 pb-0">
 
-                    <div class="row mx-0 mb-6 align-items-stretch">
+                    <div class="row mx-0 align-items-stretch">
                         <div class="col-lg-8 col-md-6 d-md-block px-0">
                             @if ($contact)
                                 {!! $contact->detail !!}
