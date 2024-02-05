@@ -26,13 +26,13 @@
 
     <!-- Font Icons -->
     <link rel="stylesheet" href="/assets/css/font-icons.css">
-    <link rel="stylesheet" href="/assets/op/css/et-line.css">
+    <link rel="stylesheet" href="/assets/onepage/css/et-line.css">
 
     <!-- Plugins/Components CSS -->
     <link rel="stylesheet" href="/assets/css/swiper.css">
 
     <!-- One Page Module Specific Stylesheet -->
-    <link rel="stylesheet" href="/assets/op/onepage.css">
+    <link rel="stylesheet" href="/assets/onepage/onepage.css">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/assets/css/custom.css">

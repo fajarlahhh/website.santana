@@ -16,7 +16,7 @@
 
     <!-- Font Icons -->
     <link rel="stylesheet" href="/assets/css/font-icons.css">
-    <link rel="stylesheet" href="/assets/op/css/et-line.css">
+    <link rel="stylesheet" href="/assets/onepage/css/et-line.css">
     @stack('css')
 
 </head>
