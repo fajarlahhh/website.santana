@@ -59,8 +59,8 @@
                         data-accordion="false">
                         <li class="nav-item">
                             <a href="/admin" class="nav-link">
-                                <i class="nav-icon fas fa-tachometer-alt"></i>
-                                Dashboard
+                                <i class="far fa-circle nav-icon"></i>
+                                Home
                             </a>
                         </li>
                         <li class="nav-item">
