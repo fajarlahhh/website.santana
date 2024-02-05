@@ -10,8 +10,8 @@
     <meta http-equiv="x-ua-compatible" content="IE=edge">
     <meta name="author" content="Lombok Tour">
     <meta name="description" content="Lombok tour">
-    <meta name="description" content="Rent Car">
-    <meta name="description" content="Sapta Santana">
+    <meta name="description" content="Rent Car Lombok">
+    <meta name="description" content="Sapta Santana Lombok tour">
     <link rel="icon" href="/assets/images/logo.png" type="image/gif">
 
     <!-- Font Imports -->
