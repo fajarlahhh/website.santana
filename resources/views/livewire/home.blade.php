@@ -1,7 +1,7 @@
 <div>
     <div id="wrapper">
 
-        <header id="header" class="full-header  header-size-custom" data-sticky-shrink="false"
+        <header id="header" class="full-header transparent-header dark header-size-custom" data-sticky-shrink="false"
             data-sticky-class="not-dark">
             <div id="header-wrap">
                 <div class="container">
