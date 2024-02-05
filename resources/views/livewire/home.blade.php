@@ -249,50 +249,27 @@
 
                         <div class="col-lg-4">
 
-                            <div class="widget subscribe-widget" data-loader="button">
-                                <h4>Subscribe</h4>
-
-                                <div class="widget-subscribe-form-result"></div>
-                                <form id="widget-subscribe-form" action="include/subscribe.php" method="post"
-                                    class="mb-0">
-                                    <input type="email" id="widget-subscribe-form-email"
-                                        name="widget-subscribe-form-email"
-                                        class="form-control form-control-lg not-dark required email"
-                                        placeholder="Your Email Address">
-                                    <button class="button button-border button-circle button-light mt-4"
-                                        type="submit">Subscribe Now</button>
-                                </form>
-                            </div>
+                            <img class="logo-dark"
+                                    srcset="/assets/images/logo_text_white_vert.png, /assets/images/logo_text_white_vert.png 2x"
+                                    src="/assets/images/logo_text_white_vert.png" alt="Canvas Logo" style="height: 100px">
 
                         </div>
 
                         <div class="col-lg-4">
 
                             <div class="widget">
-                                <h4>Contact</h4>
-
-                                <p class="lead">795 Folsom Ave, Suite 600<br>San Francisco, CA 94107</p>
+                                <p class="lead">{!! $contact ? $contact->description : null !!}</p>
 
                                 <div class="d-flex justify-content-center mt-4">
-                                    <a href="#" class="social-icon si-small bg-transparent h-bg-facebook"
+                                    <a href="https://www.facebook.com/Saptasanasantana" class="social-icon si-small bg-transparent h-bg-facebook"
                                         title="Facebook">
                                         <i class="fa-brands fa-facebook-f"></i>
                                         <i class="fa-brands fa-facebook-f"></i>
                                     </a>
-                                    <a href="#" class="social-icon si-small bg-transparent h-bg-x-twitter"
-                                        title="Twitter">
-                                        <i class="fa-brands fa-x-twitter"></i>
-                                        <i class="fa-brands fa-x-twitter"></i>
-                                    </a>
-                                    <a href="#" class="social-icon si-small bg-transparent h-bg-github"
-                                        title="Github">
-                                        <i class="fa-brands fa-github"></i>
-                                        <i class="fa-brands fa-github"></i>
-                                    </a>
-                                    <a href="#" class="social-icon si-small bg-transparent h-bg-pinterest"
-                                        title="Pinterest">
-                                        <i class="fa-brands fa-pinterest-p"></i>
-                                        <i class="fa-brands fa-pinterest-p"></i>
+                                    <a href="https://www.instagram.com/saptasanasantana_driver_lombok/" class="social-icon si-small bg-transparent h-bg-instagram"
+                                        title="Instagram">
+                                        <i class="fa-brands fa-instagram"></i>
+                                        <i class="fa-brands fa-instagram"></i>
                                     </a>
                                 </div>
                             </div>
@@ -306,7 +283,7 @@
 
             <div id="copyrights">
                 <div class="container text-center">
-                    Copyrights Canvas 2020 | All Rights Reserved
+                    Saptasana Santana 2024 | All Rights Reserved
                 </div>
             </div>
 
