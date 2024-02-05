@@ -32,7 +32,7 @@
     <link rel="stylesheet" href="/assets/css/swiper.css">
 
     <!-- One Page Module Specific Stylesheet -->
-    <link rel="stylesheet" href="/assets/op/onepage.css">
+    <link rel="stylesheet" href="/assets/op/style.css">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/assets/css/custom.css">
