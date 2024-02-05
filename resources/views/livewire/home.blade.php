@@ -249,9 +249,9 @@
 
                         <div class="col-lg-4">
 
-                            <img class="logo-dark"
+                            <img class="logo-dark" style="margin-top:50px; height: 200px"
                                     srcset="/assets/images/logo_text_white_vert.png, /assets/images/logo_text_white_vert.png 2x"
-                                    src="/assets/images/logo_text_white_vert.png" alt="Canvas Logo" style="height: 100px">
+                                    src="/assets/images/logo_text_white_vert.png" alt="Canvas Logo">
 
                         </div>
 
