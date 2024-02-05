@@ -30,5 +30,6 @@ Route::group(['middleware' => ['auth']], function () {
         });
         Route::get('/about', \App\Livewire\Admin\About::class);
         Route::get('/contact', \App\Livewire\Admin\Contact::class);
+        Route::get('/changepassword', \App\Livewire\Admin\Password::class);
     });
 });

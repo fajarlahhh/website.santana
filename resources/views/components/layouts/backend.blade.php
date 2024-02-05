@@ -89,7 +89,14 @@
                         </li>
                         <hr>
                         <li class="nav-item">
-                            <a class="nav-link btn-warning text-dark" aria-current="page" href="javascript:;"
+                            <a class="nav-link btn-warning text-dark" aria-current="page" href="/admin/changepassword"
+                                id="btn-logout">
+                                <i class="nav-icon fas fa-key"></i>
+                                Change Password
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn-danger text-dark" aria-current="page" href="javascript:;"
                                 id="btn-logout">
                                 <i class="nav-icon fas fa-sign-out-alt"></i>
                                 Log out
