@@ -248,26 +248,26 @@
                         </div>
 
                         <div class="col-lg-4">
-
                             <img class="logo-dark" style="margin-top:50px; height: 200px"
-                                    srcset="/assets/images/logo_text_white_vert.png, /assets/images/logo_text_white_vert.png 2x"
-                                    src="/assets/images/logo_text_white_vert.png" alt="Canvas Logo">
+                                srcset="/assets/images/logo_text_white_vert.png, /assets/images/logo_text_white_vert.png 2x"
+                                src="/assets/images/logo_text_white_vert.png" alt="Canvas Logo">
 
                         </div>
 
                         <div class="col-lg-4">
 
                             <div class="widget">
+                                <h4>Contact</h4>
                                 <p class="lead">{!! $contact ? $contact->description : null !!}</p>
 
                                 <div class="d-flex justify-content-center mt-4">
-                                    <a href="https://www.facebook.com/Saptasanasantana" class="social-icon si-small bg-transparent h-bg-facebook"
-                                        title="Facebook">
+                                    <a href="https://www.facebook.com/Saptasanasantana"
+                                        class="social-icon si-small bg-transparent h-bg-facebook" title="Facebook">
                                         <i class="fa-brands fa-facebook-f"></i>
                                         <i class="fa-brands fa-facebook-f"></i>
                                     </a>
-                                    <a href="https://www.instagram.com/saptasanasantana_driver_lombok/" class="social-icon si-small bg-transparent h-bg-instagram"
-                                        title="Instagram">
+                                    <a href="https://www.instagram.com/saptasanasantana_driver_lombok/"
+                                        class="social-icon si-small bg-transparent h-bg-instagram" title="Instagram">
                                         <i class="fa-brands fa-instagram"></i>
                                         <i class="fa-brands fa-instagram"></i>
                                     </a>
