@@ -483,9 +483,11 @@ textarea.border-form-control {
 	font-size: 78px;
 	letter-spacing: 3px;
 	/*text-transform: lowercase;*/
+	outline: #111 solid 1px;
 }
 
 .slider-caption p {
+	outline: #111 solid 1px;
 	font-weight: 300;
 	/*text-transform: lowercase;*/
 	font-size: 26px;
