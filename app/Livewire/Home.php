@@ -14,8 +14,8 @@ class Home extends Component
 
     public function mount()
     {
-        $this->dataHighlight = Blog::where('highlight', 1)->get()->toArray();
-        $this->dataBlog = Blog::take(6)->get()->toArray();
+        $this->dataHighlight = Blog::where('highlight', 1)->orderBy('id', 'desc')->get()->toArray();
+        $this->dataBlog = Blog::take(6)->orderBy('id', 'desc')->get()->toArray();
         $this->dataService = Service::all()->toArray();
         $this->about = Page::where('type', "about")->first();
         $this->service = Page::where('type', "service")->first();
